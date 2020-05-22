@@ -1,0 +1,67 @@
+body {
+  background-color: #a9d7e9;
+  text-align: center;
+}
+
+.container {
+  width: 65vw;
+  margin: auto;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#heading {
+  text-align: center;
+  font-size: 50px;
+}
+
+div .row {
+  display: block;
+  margin: 20px 0;
+}
+
+.row .field {
+  display: inline-block;
+  text-align: left;
+  /* vertical-align: middle; */
+  width: 40%;
+}
+
+.row label {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  width: 40%;
+  margin-right: 20px;
+}
+
+.field input {
+  padding: 5px;
+  border-radius: 5px;
+  /* width: 80%; */
+  /* height: 15px; */
+}
+
+.input-fields {
+  width: 90%;
+  height: 1.2rem;
+  border: 1px solid grey;
+}
+
+textarea {
+  height: 4rem;
+  width: 60%;
+  border-radius: 5px;
+  /* padding: 50px; */
+}
+
+button {
+  background-color: #6ba2ce;
+  height: 50px;
+  width: 80px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
